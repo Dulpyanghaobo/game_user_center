@@ -11,7 +11,8 @@ COPY . /app
 RUN pip install --no-cache-dir -r requi.txt
 
 # 开放端口
-EXPOSE 5000
+EXPOSE 5001
 
 # 运行 Flask 服务
 CMD ["flask", "run", "--host=0.0.0.0"]
+# 6cfb302706f7419bb2d3f795e80f963a
